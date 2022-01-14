@@ -1,17 +1,21 @@
 {
-  "name": "nuxtjs",
-  "version": "1.0.0",
-  "description": "My astonishing Nuxt App",
-  "author": "msweeneydev",
+  "name": "@restory/app",
+  "version": "0.0.1",
+  "description": "Restoration application",
+  "author": "Evgenii Troinov <troinof@gmail.com>",
+  "contributors": [
+    {
+      "name": "Ruslan Lukoyanov",
+      "email": "ruslanlukoanov0@gmail.com"
+    }
+  ],
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt generate",
-    "start": "nuxt start"
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
   },
-  "dependencies": {
-    "core-js": "^3.20.2",
-    "nuxt": "^2.15.8"
-  },
-  "devDependencies": {}
+  "devDependencies": {
+    "nuxt3": "latest"
+  }
 }
