@@ -64,7 +64,3 @@
     </header>
   </div>
 </template>
-
-<style>
-@import url("../lib/bootstrap.min.css");
-</style>
