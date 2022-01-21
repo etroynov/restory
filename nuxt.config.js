@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   meta: {
     script: [
       {
-        src: "/public/bootstrap.min.js",
+        src: "/bootstrap.min.js",
       },
     ],
   },
